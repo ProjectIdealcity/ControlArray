@@ -2743,10 +2743,10 @@ svg {
 	font-size: 24px; font-weight: bolder;
 }
 .article p{
-	font-size: 24px;
+	font-size: 16px;
 }
 .rightbox{
-	position: absolute; left: 72.5%; top: 17%; right: 10%;
+	position: absolute; left: 74%; top: 17%; right: 10%;
 	background: white;
 	border-radius: 25px;
 	opacity: 90%;
@@ -2755,5 +2755,5 @@ svg {
 	bottom: auto;
 }
 .rightbox h2{
-	font-size: 24px; text-align: center;
+	font-size: 18px; text-align: center;
 }
