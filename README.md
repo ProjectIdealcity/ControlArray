@@ -1,0 +1,2 @@
+# ControlArray
+A Stellaris wiki
