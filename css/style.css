@@ -198,6 +198,7 @@ img.classGo.go,
 .index-header {
 	background: #ffffff;
 	padding: 25px 40px;
+	opacity: 90%;
 	box-sizing: border-box;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
@@ -2716,5 +2717,32 @@ svg {
 	.index-title h2 {
 		font-size: 100px;
 	}
+}
+
+#bg{
+/*	background-image: url("https://api.yimian.xyz/img?type=moe&size=1920x1080"); background-repeat: no-repeat; background-position: center; background-size: 100% auto;
+	height: 100%;*/
+	margin:0;
+	background-size:100% 100%;
+	background: url(https://api.yimian.xyz/img?type=moe&size=1920x1080) no-repeat fixed;
+}
+
+.article{
+	position: absolute; left: 10%; top: 17%; right: 20%;
+	background: white;
+	border-radius: 25px;
+	opacity: 90%;
+	padding: 2rem;
+
+	bottom: auto;
+}
+.article h1{
+	font-size: 48px; font-weight: bold;
+}
+.article h2{
+	font-size: 24px; font-weight: bolder;
+}
+.article p{
+	font-size: 24px;
 }
 
