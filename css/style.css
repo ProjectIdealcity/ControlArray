@@ -2728,7 +2728,7 @@ svg {
 }
 
 .article{
-	position: absolute; left: 10%; top: 17%; right: 20%;
+	position: absolute; left: 10%; top: 17%; right: 30%;
 	background: white;
 	border-radius: 25px;
 	opacity: 90%;
@@ -2745,4 +2745,15 @@ svg {
 .article p{
 	font-size: 24px;
 }
+.rightbox{
+	position: absolute; left: 72.5%; top: 17%; right: 10%;
+	background: white;
+	border-radius: 25px;
+	opacity: 90%;
+	padding: 1rem;
 
+	bottom: auto;
+}
+.rightbox h2{
+	font-size: 24px; text-align: center;
+}
