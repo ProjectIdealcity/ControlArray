@@ -1,332 +1,121 @@
-﻿<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="utf-8">
-<title>Stellaris WIKI - 管理阵列网站</title>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<link rel="stylesheet" type="text/css" href="css/common.css">	
-<link rel="stylesheet" href="http://www.5imoban.net/download/swiper/swiper-4.4.2.min.css" />
-<link rel="stylesheet" type="text/css" href="css/animate.min.css">
-</head>
-	
-<body>
-<div class="index-header clearfix">
-	<div class="index- fl">
-		<a href=""></a>
-	</div>
-	<ul class="index-nav fl">
-		<li><a href="index.html">首页</a></li>
-		
-		<li><a href="products.html">产品中心</a></li>
-		
-		<li><a href="wiki.html">WIKI</a></li>
-	</ul>
-	<div class="index-header-right fr">
-		<a href="" class="search-btn">搜索</a>	
-		<a href="" class="erweima">
-			<div class="erweima-pic">
-				<img src="images/pic1.jpg">
-			</div>
-		</a>
-	</div>
-	<div class="clear"></div>
-</div>
-	
-<div class="search_sec">
-	<a href="#" title="" class="close-search"><i class=" la-close"><img src="images/icon5.png"></i></a>
-	<div class="search_field">
-		<div class="container">
-			<form>
-				<input type="text" name="search" placeholder="Search for...">
-				<button type="submit"><img src="images/search2.png" alt=""></button>
-			</form>
-		</div>
-	</div>
-</div>	
-<!--search_sec end-->
+    <!DOCTYPE html>
+    <html lang="zh">
+    <head>
+    <meta charset="UTF-8">
+    <title>首页 | 控制阵列Wiki</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+    <main>
+    <!--navbar-->
 
-<div id="bloc">
-	<article id="index">
-		<div class="banner-position">
-			<div class="index-banner swiper-container">
-			    <div class="swiper-wrapper">
-			        <div class="swiper-slide"> </div>
-			        <div class="swiper-slide">
-			          <img src="images/banner1.jpg">
-			        </div>
-			        <div class="swiper-slide">
-			          <img src="images/banner1.jpg">
-			        </div>
-			    </div>
-			    <!-- Add Navigation -->
-			    <div class="swiper-button-prev swiper-button-white"></div>
-			    <div class="swiper-button-next swiper-button-white"></div>
-		  	</div>
-			<div class="banner-wave">
-				<svg viewBox="0 0 120 28">
-			
-					<defs>
-			
-						<filter id="goo">
-			
-							<feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
-			
-							<feColorMatrix in="blur" mode="matrix" values="
-			
-							   1 0 0 0 0  
-							
-							   0 1 0 0 0  
-							
-							   0 0 1 0 0  
-							
-							   0 0 0 13 -9" result="goo" />
-			
-							<xfeBlend in="SourceGraphic" in2="goo" />
-			
-						</filter>
-			
-						<path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
-			
-					</defs>
-			
-					<use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
-			
-					<use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
-			
-					<g class="gooeff" filter="url(#goo)">
-			
-						<circle class="drop drop1" cx="20" cy="2" r="8.8" />
-			
-						<circle class="drop drop2" cx="25" cy="2.5" r="7.5" />
-			
-						<circle class="drop drop3" cx="16" cy="2.8" r="9.2" />
-			
-						<circle class="drop drop4" cx="18" cy="2" r="8.8" />
-			
-						<circle class="drop drop5" cx="22" cy="2.5" r="7.5" />
-			
-						<circle class="drop drop6" cx="26" cy="2.8" r="9.2" />
-			
-						<circle class="drop drop1" cx="5" cy="4.4" r="8.8" />
-			
-						<circle class="drop drop2" cx="5" cy="4.1" r="7.5" />
-			
-						<circle class="drop drop3" cx="8" cy="3.8" r="9.2" />
-			
-						<circle class="drop drop4" cx="3" cy="4.4" r="8.8" />
-			
-						<circle class="drop drop5" cx="7" cy="4.1" r="7.5" />
-			
-						<circle class="drop drop6" cx="10" cy="4.3" r="9.2" />
-			
-						<circle class="drop drop1" cx="1.2" cy="5.4" r="8.8" />
-			
-						<circle class="drop drop2" cx="5.2" cy="5.1" r="7.5" />
-			
-						<circle class="drop drop3" cx="10.2" cy="5.3" r="9.2" />
-			
-						<circle class="drop drop4" cx="3.2" cy="5.4" r="8.8" />
-			
-						<circle class="drop drop5" cx="14.2" cy="5.1" r="7.5" />
-			
-						<circle class="drop drop6" cx="17.2" cy="4.8" r="9.2" />
-			
-						<use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
-			
-					</g>
-				</svg>
-			</div>
-		</div>
-		<div class="clear"></div>
-			<!--about-->
-			<div class="index-about">
-				<div class="index-con clearfix">
-					<div class="index-about-text fl">
-						<div class="index-title">
-							<h3 class="scroll-animate" data-effect="fadeInUpSmall">controlarray</h3>
-							<h2 class="scroll-animate" data-delay="0.2" data-effect="fadeInUpSmall">关于</h2>
-							<span></span>
-						</div>
-						<p  class="scroll-animate" data-delay="0.6" data-effect="fadeInUpSmall">XXX智能立足于智慧社区领域，以人脸识别系统为核心，以社区需求为导向，率先在智慧社区、大数据领域布局并取得重大突破。<br />
-						XXX专注于智慧社区系统方案及配套产品的研发，通过云计算、大数据、人工智能等技术连接物业、居民、政府、媒体和社区服务提供方，形成“物联网+社区”一站式解决方案，目前已经获得国内专利及软件著作权40多项。</p>
-						<div class="index-more">
-							<a href="">view more +</a>
-						</div>
-					</div>	
-					<div class="index-about-pic fr">
-						<a href="" >
-							<img src="images/pic2.jpg" class="scroll-animate classGo" data-Tclass="go">
-						</a>
-					</div>
-				</div>
-				<div class="wave_box1">
-					<img src="images/wavs.gif">
-				</div>
-			</div>
-			<div class="clear"></div>
-			
-			<!--业务范围-->
-			<div class="index-yewu"> </div>
-			<div class="clear"></div>
-			
-			<div class="position-yuan clearfix">			
-				<div class="bg scr-el" data-v="1" data-speed-x="12" data-offset="150 "></div>
-			</div>
-			<div class="clear"></div>
-			<!--产品-->
-			<div class="index-product clearfix">
-				<div class="index-con clearfix">
-					<div class="index-title">
-						<h3>controlarray</h3>
-						<h2>项目</h2>			
-					</div>
-					<ul class="clearfix index-product-list clearfix">
-						<li>
-							<a href="">
-								<em><img src="images/pic4.jpg"></em>
-								<div class="text">
-									<h2>Stellaris Wiki </h2>
-									<p>Paradox群星游戏中文WIKI</p>
-									<span><img src="images/jt.png"></span>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<em><img src="images/pic5.jpg"></em>
-								<div class="text">
-									<h2>智能交通应用系统 </h2>
-									<p>Intelligent Transportation Application System</p>
-									<span><img src="images/jt.png"></span>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<em><img src="images/pic6.jpg"></em>
-								<div class="text">
-									<h2>社区媒体服务 </h2>
-									<p>Community Media Services</p>
-									<span><img src="images/jt.png"></span>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="clear"></div>
-			
-			<!--news-->
-			<div class="index-news">
-				<div class="index-con clearfix">
-					<div class="index-title">
-						<h3>controlarray</h3>
-						<h2>最新消息</h2>			
-					</div>
-					<ul class="index-news-list clearfix">
-						<li class="trs02 an_up">
-							<a href="">
-								<em><img src="images/pic7.jpg"></em>
-								<div class="text">
-									<span></span>
-									<p>AI人脸识别，助力智慧社区建设升级慧社区建！</p>
-									<i>2019.09.25</i>
-								</div>
-							</a>
-						</li>
-						<li class="trs03 an_up">
-							<a href="">
-								<em><img src="images/pic7.jpg"></em>
-								<div class="text">
-									<span></span>
-									<p>AI人脸识别，助力智慧社区建设升级慧社区建！</p>
-									<i>2019.09.25</i>
-								</div>
-							</a>
-						</li>
-						<li class="trs04 an_up">
-							<a href="">
-								<em><img src="images/pic7.jpg"></em>
-								<div class="text">
-									<span></span>
-									<p>AI人脸识别，助力智慧社区建设升级慧社区建！</p>
-									<i>2019.09.25</i>
-								</div>
-							</a>
-						</li>
-						<li class="trs05 an_up">
-							<a href="">
-								<em><img src="images/pic7.jpg"></em>
-								<div class="text">
-									<span></span>
-									<p>AI人脸识别，助力智慧社区建设升级慧社区建！</p>
-									<i>2019.09.25</i>
-								</div>
-							</a>
-						</li>
-					</ul>
-					<div class="clear"></div>
-				</div>
-			</div>
-			
-			<!--footer-->
-			<div class="index-footer">										
-				<div class="clearfix index-footer-info index-con">
-					<div class=" fl">
-						
-					</div>
-					<div class="lianxi fl">
-						<h2>联系方式</h2>
-						<p>QQ群： xxx </p>
-						<p>微信群：xxx</p>
-						<p>电子邮箱：xxx</p>
-						<p>Bilibili：xxx</p>
-					</div>
-					<div class="phone fl">			
-						xxx
-					</div>
-					<div class="erweima fr">
-						<img src="images/pic1.jpg">
-						<p>二维码</p>
-					</div>
-				</div>
-				
-				<div class="index-footer-bottom">
-					<div class="index-con clearfix">
-						<p class="fl">版权所有 © 2022-2023 原理创意文化科技有限公司 xICP备xxxxxxxx号 x公网安备xxxxxxxxxxxxxxxxxx号 本站所有内容均采用<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC-BY-SA4.0协议</a>传播</p>
-						<a href="http://www.5imoban.net" target="_blank" class="fr">技术支持：原理创意社 管理阵列  社区支持：白毛理想城</a>
-					</div>
-				</div>
-			</div>	
-			<div class="clear"></div>		
-	</article>
-</div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
+    <div class="container">
+        <a class="navbar-brand" href="#">控制阵列 中文Wiki</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-<script type="text/javascript" src="http://www.5imoban.net/download/jquery/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src='js/modernizr.custom.js'></script>
-<script src="js/more.js"></script>
-<script src="http://www.5imoban.net/download/swiper/swiper-4.4.2.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-<script type='text/javascript' src='js/base.js'></script>
-<script type="text/javascript" src='js/app.js'></script>
-<script>
-var swiper = new Swiper('.index-banner.swiper-container', {
-  speed: 600,
-  parallax: true,   
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-});
-scrolly.init({
-	wrapper: '#bloc',
-	targets: '.scr-el',
-	bgParallax: true,
-	wrapperSpeed: 0.08
-});
-</script>
-<style>
-.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
-</style>
-</body>
-</html>
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">主页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">社区</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">其他</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">正在维修</a></li>
+                        <li><a class="dropdown-item" href="#">正在维修</a></li>
+                        <li><a class="dropdown-item" href="#">正在维修</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="w-25 me-3" role="search">
+                <input type="search" class="form-control" placeholder="搜索..." aria-label="搜索">
+            </form>
+            <div class="col-md-2 text-end">
+                <button type="button" class="btn btn-outline-primary me-2">登录</button>
+                <button type="button" class="btn btn-primary">注册</button>
+            </div>
+    <!--            <div class="flex-shrink-0 dropdown">-->
+    <!--                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">-->
+    <!--                    <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">-->
+    <!--                </a>-->
+    <!--                <ul class="dropdown-menu text-small shadow">-->
+    <!--                    <li><a class="dropdown-item" href="#">New project...</a></li>-->
+    <!--                    <li><a class="dropdown-item" href="#">Settings</a></li>-->
+    <!--                    <li><a class="dropdown-item" href="#">Profile</a></li>-->
+    <!--                    <li><hr class="dropdown-divider"></li>-->
+    <!--                    <li><a class="dropdown-item" href="#">Sign out</a></li>-->
+    <!--                </ul>-->
+    <!--            </div>-->
+        </div>
+    </div>
+    </nav>
+
+        <div class="container py-4">
+        <div class="container1bg rounded-2">
+                <div class="container-fluid py-5 blur rounded-2">
+                <h1 class="display-5 fw-bold">关于本站</h1>
+                <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+                </div>
+        </div>
+            <br>
+            <div class="container bg-light col-md-2">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+                </div>
+            <br>
+            <div class="row align-items-md-stretch">
+                <div class="col-md-6">
+                    <div class="h-100 p-5 text-bg-dark rounded-3">
+                        <h2>Change the background</h2>
+                        <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                        <button class="btn btn-outline-light" type="button">Example button</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                        <h2>Add borders</h2>
+                        <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+                        <button class="btn btn-outline-secondary" type="button">Example button</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <!--footer-->
+
+    <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">&copy; 2022-2023 原理创意</span>
+        </div>
+    </footer>
+    </div>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/sidebars.js"></script>
+    </body>
+    </html>
