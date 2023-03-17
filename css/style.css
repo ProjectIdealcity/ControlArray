@@ -1,5 +1,5 @@
 .container1bg{
-    background: url(/assets/img/stellaris-gamepage-image.jpg) no-repeat center;
+    background: url("/assets/img/stellaris-gamepage-image.jpg") no-repeat center;
 }
 .blur{
     backdrop-filter: blur(8px);
