@@ -1,0 +1,154 @@
+    <!DOCTYPE html>
+    <html lang="zh-CN">
+    <head>
+    <meta charset="UTF-8">
+    <title>首页 | 控制阵列Wiki</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+        <style>
+            .paragraph{
+                font-size: 20px; font-family: 华文宋体,serif;
+            }
+            .t{
+                font-family: 华文中宋,serif;
+            }
+        </style>
+    </head>
+    <body>
+    <main>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">控制阵列 中文Wiki</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">主页</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">社区</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled">维修</a>
+            </li>
+        </ul>
+        <div class="col-md-1">
+            <button type="button" class="btn btn-outline-primary me-2">登录</button>
+            <button type="button" class="btn btn-primary">注册</button>
+        </div>
+        <!--                        <div class="flex-shrink-0 dropdown">-->
+        <!--                            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">-->
+        <!--                                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">-->
+        <!--                            </a>-->
+        <!--                            <ul class="dropdown-menu text-small shadow">-->
+        <!--                                <li><a class="dropdown-item" href="#">New project...</a></li>-->
+        <!--                                <li><a class="dropdown-item" href="#">Settings</a></li>-->
+        <!--                                <li><a class="dropdown-item" href="#">Profile</a></li>-->
+        <!--                                <li><hr class="dropdown-divider"></li>-->
+        <!--                                <li><a class="dropdown-item" href="#">Sign out</a></li>-->
+        <!--                            </ul>-->
+        <!--                        </div>-->
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="搜索" aria-label="搜索">
+            <button class="btn btn-outline-success col-md-4" type="submit">搜索</button>
+        </form>
+    </div>
+    </div>
+    </nav>
+
+    <div class="container-fluid row float-start">
+    <div class="col-md-2">
+        <div class="h-auto p-5 bg-light border rounded-2">
+            <h3 class="display-6">群星</h3>
+            <h3 class="display-6">中文Wiki</h3>
+            <br>
+            <ul class="list-unstyled">
+                <li class="my-2">
+                    <button class="btn d-inline-flex align-items-center collapsed border-0" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#contents-collapse" aria-controls="contents-collapse">Contents</button>
+                    <ul class="list-unstyled ps-3 collapse" id="contents-collapse">
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#typography">Typography</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#images">Images</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#tables">Tables</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#figures">Figures</a></li>
+                    </ul>
+                </li>
+                <li class="my-2">
+                    <button class="btn d-inline-flex align-items-center collapsed border-0" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#forms-collapse" aria-controls="forms-collapse">Forms</button>
+                    <ul class="list-unstyled ps-3 collapse" id="forms-collapse">
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#overview">Overview</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#disabled-forms">Disabled forms</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#sizing">Sizing</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#input-group">Input group</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#floating-labels">Floating labels</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#validation">Validation</a></li>
+                    </ul>
+                </li>
+                <li class="my-2">
+                    <button class="btn d-inline-flex align-items-center collapsed border-0" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#components-collapse" aria-controls="components-collapse">Components</button>
+                    <ul class="list-unstyled ps-3 collapse" id="components-collapse">
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#accordion">Accordion</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#alerts">Alerts</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#badge">Badge</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#breadcrumb">Breadcrumb</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#buttons">Buttons</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#button-group">Button group</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#card">Card</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#carousel">Carousel</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#dropdowns">Dropdowns</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#list-group">List group</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#modal">Modal</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#navs">Navs</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#navbar">Navbar</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#pagination">Pagination</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#popovers">Popovers</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#progress">Progress</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#scrollspy">Scrollspy</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#spinners">Spinners</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#toasts">Toasts</a></li>
+                        <li><a class="d-inline-flex align-items-center rounded text-decoration-none" href="#tooltips">Tooltips</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-10">
+        <div class="h-auto p-5">
+            <h1 class="pb-2 border-bottom t">标题1</h1>
+            <p class="paragraph">简介</p>
+            <div class="col-md-2">
+                <div class="h-auto bg-light border rounded-2">
+                    <h4 class="py-1 text-center">目录</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">链接</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">链接</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">链接</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <h2 class="pb-2 border-bottom t">标题2</h2>
+            <p class="paragraph">正文</p>
+        </div>
+    </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-muted">&copy; 2022-2023 原理创意</span>
+            </div>
+        </footer>
+    </div>
+    </div>
+    <!--footer-->
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
